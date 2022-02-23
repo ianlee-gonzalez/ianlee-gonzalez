@@ -1,4 +1,4 @@
-### Eaew ,suave?  👋
+### Olá ! Eu estou usando o Github  👋
 
 <!--
 **ianlee-gonzalez/ianlee-gonzalez** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
