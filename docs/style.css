@@ -8,15 +8,91 @@
 #port .container .card img {
     width: 100%;
     height: auto;
+}@media (max-width: 768px) {
+    .contact-right {
+        width: 100%;  /* Garante que o formulário ocupe toda a largura da tela */
+        padding: 10px; /* Adiciona algum preenchimento */
+    }
+    .content-contact {
+        display: flex;
+        flex-direction: column; /* Coloca os elementos em coluna em vez de linha */
+        align-items: flex-start; /* Alinha os itens à esquerda */
+    }
 }
+footer {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    background-color: #333;  /* Escolha uma cor de fundo para o rodapé */
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+    z-index: 1000;  /* Garantir que o rodapé fique acima de outros elementos */
+}
+@media (max-width: 768px) {
+    footer {
+        font-size: 12px;  /* Ajuste o tamanho da fonte para telas menores */
+        padding: 8px 0;   /* Menos padding para se ajustar melhor em telas pequenas */
+    }
+}
+
+
+body {
+    margin-bottom: 40px; /* Adicione uma margem inferior para evitar que o conteúdo fique escondido atrás do rodapé */
+}
+
+
+
 
 @media screen and (max-width: 600px) {
     header .menu {
         display: none;
+
+    }
+	/* Ajuste global para fontes e tamanhos */
+body {
+    font-size: 16px; /* Tamanho base da fonte */
+}
+
+h1, h2, h3 {
+    font-size: 2em; /* Use uma unidade relativa */
+}
+
+/* Seções */
+section {
+    padding: 20px; /* Aumente o padding */
+}
+
+/* Ajustes específicos para dispositivos móveis */
+@media screen and (max-width: 600px) {
+    header .menu {
+        display: none; /* Oculte o menu padrão */
     }
     header .btn-mobile {
-        display: block;
+display        : block; /* Mostre o botão de menu móvel */
     }
+    #home .container .title h1 {
+        font-size: 3rem; /* Reduza o tamanho da fonte */
+    }
+    #port .container .card {
+        width: 90%; /* Aumente a largura da card */
+        height: auto; /* Ajuste a altura automaticamente */
+    }
+    #contact .container .content-contact {
+        flex-direction: column; /* Coloque os elementos em coluna */
+        align-items: center;
+    }
+    #contact .content-contact .contact-left, 
+    #contact .content-contact .contact-right {
+        width: 100%; /* Deixe as seções de contato em 100% */
+        text-align: center; /* Centralize o texto */
+    }
+}
+
+    /* header .btn-mobile {
+        display: block;
+    } */
     #home .container .title h1 {
         font-size: 4rem;
     }
@@ -388,15 +464,16 @@ header .btn-mobile{
     padding: 15px 20px;
 }
 /*===== Footer =====*/
-footer{
+footer {
+    position: fixed;
+    bottom: 0;
+    left: 0;
     width: 100%;
-    height: 80px;
-    color: #fff;
-    line-height: 80px;
+    background-color: #333;
+    color: white;
     text-align: center;
-    background: rgba(0,0,0,0.5);
-    position: relative;
-    top: -80px;
+    padding: 5px 0;  /* Reduzi o padding para um espaçamento menor */
+    z-index: 1000;
 }
 footer a{
     color: #2e8b57;
@@ -419,6 +496,7 @@ footer a{
 @media screen and (max-width: 960px){
     body{
         background: url(CREATIVE_3.png);
+		
     }
     header{
         background: none;
@@ -429,7 +507,7 @@ footer a{
     header .menu{
         display: none;
     }
-    header .btn-mobile{
+     header .btn-mobile{
         display: block;
     }
     header .btn-mobile ion-icon {
@@ -548,6 +626,83 @@ footer a{
         width: 60%;
         height: 60%;
     }
+	/* Ajuste de responsividade para o formulário e cards */
+@media (max-width: 768px) {
+    #port .container {
+        flex-direction: column; /* Faz com que os cards fiquem em coluna */
+        align-items: center; /* Centraliza os elementos */
+    }
+
+    #contact .container {
+        flex-direction: column; /* Faz o contato ocupar todo o espaço vertical */
+        align-items: center;
+    }
+
+    #contact .content-contact {
+        display: flex;
+        flex-direction: column; /* Alinha os elementos em coluna no celular */
+        align-items: center; 
+        margin: 0 auto; 
+        gap: 20px; /* Adiciona espaço entre os elementos */
+    }
+
+    #contact .content-contact .contact-left, 
+    #contact .content-contact .contact-right {
+        width: 100%; /* Ocupa toda a largura */
+        text-align: center; /* Centraliza o texto */
+        margin-bottom: 20px; /* Espaço entre seções */
+    }
+
+    #contact .content-contact .contact-right {
+        order: 2; /* Força o formulário a ir para baixo em telas menores */
+    }
+}
+
+@media (max-width: 600px) {
+    #port .container .card {
+        width: 90%; /* Ajusta a largura dos cards para telas menores */
+        margin-bottom: 20px; /* Adiciona espaço entre os cards */
+    }
+
+    #contact .container .content-contact {
+        flex-direction: column; /* Sempre organiza os elementos em coluna */
+        gap: 15px; /* Reduz espaço em telas menores */
+    }
+}
+/* Ajuste do título no responsivo */
+#home .container .title h1,
+#home .container .title h2,
+#home .container .title h3 {
+    font-size: 6vw; /* Adapta o tamanho com base na largura da tela */
+    text-align: center; /* Centraliza o texto no responsivo */
+}
+
+@media (max-width: 768px) {
+    #home .container .title h1 {
+        font-size: 5vw; /* Reduz tamanho para telas médias */
+    }
+    #home .container .title h2 {
+        font-size: 4vw; /* Adaptação para o subtítulo */
+    }
+    #home .container .title h3 {
+        font-size: 3vw; /* Adaptação para o subtítulo menor */
+    }
+}
+
+@media (max-width: 480px) {
+    #home .container .title h1 {
+        font-size: 4vw; /* Menor tamanho para dispositivos muito pequenos */
+    }
+    #home .container .title h2 {
+        font-size: 3.5vw;
+    }
+    #home .container .title h3 {
+        font-size: 2.5vw;
+    }
+}
+
+
+	
 	
 
 	
