@@ -9,26 +9,10 @@ Sou **Analista de Inteligência de Negócios** com experiência em análise de d
     - **Python** (pandas, NumPy, Matplotlib, Seaborn)
     - **SQL** (Consultas, manipulação de dados)
     - **Power BI** / **Tableau** (Visualização de dados)
-    - **Machine Learning** (scikit-learn)
+    - **Machine Learning** (scikit-learn,tensorflow)
     - **Data Analysis** (Estatísticas, previsão de tendências)
     - **Growth Analytics** (Análise de vendas e crescimento)
 - 🎯 **Objetivo**: Ajudar empresas a tomar decisões mais informadas e eficientes com dados.
-
-## 🚀 Projetos Relevantes
-
-Aqui estão alguns dos meus projetos em Business Intelligence e Análise de Dados:
-
-### 📊 **Análise de Vendas e Lucros**
-- Um projeto que analisa as vendas de microempresas, detectando padrões e fornecendo insights de lucro ou prejuízo.
-- **Tecnologias**: Python, pandas, NumPy, Matplotlib
-
-### 📈 **Dashboard de BI**
-- Um dashboard interativo com Power BI que analisa o desempenho de vendas e custos, ajudando a otimizar as operações empresariais.
-- **Tecnologias**: Power BI, SQL
-
-### 🔍 **Análise Preditiva para Negócios**
-- Implementação de modelos preditivos para prever vendas e comportamento de clientes.
-- **Tecnologias**: Python, scikit-learn, Jupyter Notebooks
 
 ## 🛠️ Tecnologias e Ferramentas
 
