@@ -56,7 +56,7 @@ body {
 }
 
 h1, h2, h3 {
-    font-size: 2em; /* Use uma unidade relativa */
+    font-size: 1em; /* Use uma unidade relativa */
 }
 
 /* Seções */
@@ -303,6 +303,23 @@ header .btn-mobile{
 }
 
 /*===== portfolio =====*/
+
+
+#port .container .card a.button {
+    position: absolute;
+    text-align: center;
+    z-index: 9;
+    margin-top: 470px; /* Mantenha a mesma margem do botão original */
+    padding: 10px 20px;
+    border-radius: 20px;
+    border: none;
+    color: #fff;
+    background: rgba(21, 111, 195, 0.5);
+    text-transform: uppercase;
+    cursor: pointer;
+    text-decoration: none; /* Remove o sublinhado do link */
+}
+
 #port .container{
     width: 100%;
     height: 120vh;
@@ -353,8 +370,9 @@ header .btn-mobile{
 }
 #port .container .card button{
     position: absolute;
+	text-align: justify;
     z-index: 9;
-    margin-top: 400px;
+    margin-top: 470px;
     padding: 10px 20px;
     border-radius: 20px;
     border: none;
@@ -388,6 +406,8 @@ header .btn-mobile{
     transform: translateX(0) scale(1);
     opacity: 1;
     z-index: 1;
+
+	
 }
 
 /*===== Contact =====*/
@@ -700,10 +720,34 @@ footer a{
         font-size: 2.5vw;
     }
 }
+/* Estilos gerais para dispositivos móveis */
+@media (max-width: 768px) {
+    #port .container .card {
+        width: 90%; /* Aumenta a largura do card em dispositivos móveis */
+        height: auto; /* Deixa a altura automática */
+        margin: 20px auto; /* Ajusta a margem superior e inferior */
+    }
+
+    #port .container .card h1 {
+        font-size: 4rem; /* Reduz o tamanho da fonte do título */
+        margin-top: 30px; /* Ajusta a margem superior */
+    }
+
+    #port .container .card p {
+        width: 90%; /* Ajusta a largura do parágrafo */
+        margin-top: 100px; /* Ajusta a margem superior */
+    }
+
+    #port .container .card a.button {
+        margin-top: 350px; /* Ajusta a margem superior do botão */
+        padding: 8px 16px; /* Reduz o padding do botão */
+    }
+
+    #port .container {
+        height: auto; /* Deixa a altura automática */
+        padding: 20px; /* Adiciona padding para melhor espaçamento */
+    }
+}
 
 
-	
-	
-
-	
 }
