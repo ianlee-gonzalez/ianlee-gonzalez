@@ -1,3 +1,6 @@
+<meta http-equiv="refresh" content="0; URL='https://<ianlee-gonzalez>.github.io/<ianleegonzalez>'" />
+
+
 # Olá, sou Ian Lee Gonzalez 👋
 
 Sou **Analista de Inteligência de Negócios** com experiência em análise de dados, **Python**, **Machine Learning**, e visualização de dados. Meu objetivo é transformar dados em insights acionáveis para apoiar a tomada de decisões estratégicas nas empresas.
