@@ -27,13 +27,6 @@ Sou **Analista de Inteligência de Negócios** com experiência em análise de d
   <img height="30" width="40" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/git/git-original.svg">
 </div>
 
-## 📊 Estatísticas do GitHub
-
-<div align="center">
-  <img height="180em" src="https://github-readme-stats.vercel.app/api?username=ianlee-gonzalez&show_icons=true&theme=dark&include_all_commits=true&count_private=true"/>
-  <img height="180em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=ianlee-gonzalez&layout=compact&langs_count=7&theme=dark"/>
-</div>
-
 ## 📫 Conecte-se Comigo
 
 <a href="https://www.linkedin.com/in/ian-lee-gonzalez/" target="_blank"><img src="https://img.shields.io/badge/-LinkedIn-%230077B5?style=for-the-badge&logo=linkedin&logoColor=white" target="_blank"></a>
